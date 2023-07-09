@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title></title>
+  </head>
+  <body>
+    
+
+
+<div class="container-fluid" id="header">
+	
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <!-- <a class="navbar-brand" href="./index.html">Home</a> -->
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">HOME</a>
+			  </li>
+		  </ul>
+
+
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+			
+			<ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="./app1.html">Warehouse Management System</a>
+			</li>
+
+			<li class="nav-item">
+			  <a class="nav-link" href="./app2.html">Resume Optimization System</a>
+			</li>
+
+			<li class="nav-item">
+			  <a class="nav-link" href="./app3.html">Study Notes System</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./app4.html">Travel Tips System</a>
+			  </li>
+		</ul>
+</div>
+	  </div>
+	  </nav>
+
+		<!-- Hero Section -->
+	  <div class="container" id="hero">
+	  	<div class="row justify-content-end">
+	  		<div class="col-lg-6 hero-img-container">
+	  			<div class="hero-img">
+	  				<!-- hero img -->
+	  				<img src="./img/cover1.png">
+	  			</div>
+	  		</div>	  		
+
+	  		<div class="col-lg-9">
+	  			<div class="hero-title">
+	  				<h1>Warehouse Management System</h1>
+	  			</div>
+
+	  		</div>
+	  		<!-- hero meta -->
+	  		<div class="col-lg-6">
+	  			<div class="hero-meta">
+	  				<div class="author">
+	  					<div class="author-img"><img src="./img/m2.jpeg"></div>
+	  					<div class="author-meta">
+	  					<span class="author-name">Junzheng Liu</span>
+	  					<span class="author-tag">Project</span>
+	  					</div>	
+	  				</div>
+	  				<span class="date mt-2">7th July, 2023</span>
+	  				<div class="tags mt-2">
+							<a href=""><span class="badge badge-pill p-2 badge-light">#React</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#Javascript</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#D3.js</span></a>
+							<a href=""><span class="badge badge-pill p-2 badge-light">#Axios</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#Node.js</span></a>
+							<a href="">
+							<span class="badge badge-pill p-2 badge-light">#Express</span></a>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+</div>
+
+
+<!-- Content -->
+<div class="container mt-5" id="content">
+	<div class="row justify-content-center">
+		<!-- Share buttons -->
+		<div class="col-lg-1 text-left mb-3 fixed" id="social-share">
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-facebook-f"></i></a>
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-google"></i></a>
+			<a class="btn  btn-light m-2" href="#"><i class="fab fa-twitter"></i></a>
+		</div>
+
+		<!-- the content -->
+		<div class="col-xl-7 col-lg-10 col-md-12">
+			<a class="nav-link" href="http://173.82.212.205:3000/page/login">Warehouse Management System(Click enter APP)</a>
+			<p class="lead">I will introduce the construction ideas and technology stack of the warehouse management system in detail, hoping to give a good impression on the interviewer.</p>
+
+			<p>The front end of the project uses the React framework based on Javascript, mainly using react class to create components, using D3.js to build visual charts, using ‘this.state’ for state management, using Axios to request API to obtain back-end responses, and using life cycle functions to implement components Life cycle management. At the same time, I also have the ability to use react hook to create components and use react hook or redux for state management, which will be demonstrated in my next sample application-Study Notes System. Due to the eagerness to find a new job, UI design It's lacking, which means he may look a little ugly, please forgive me.</p>
+
+			<p>The backend of the project is based on NodeJS, uses Express.js as the framework, and reads, writes and queries data through middleware.
+				The project does not have a separate database. In order to improve the development progress, the data will be written directly into the JSON file.</p>
+
+			<p>The project has been deployed on E2C server,using Nginx. Due to the limited access, I did not create an ELB for load balancing. At the same time, I also successfully used S3+Beanstalk to complete the deployment of the project</p>
+
+			<p>Entering the project, the first page is the login interface. There are two user modes in the system, one is administrator mode and the other is common user mode. Users can create common users by registering and have a built-in admin user:
+				admin@gmail.com/Aa123456!</p>
+			<p>You can use the above email address and password to log in by administrator mode. Administrator mode can manage the permissions of other users after logging in to the system.</p>
+			<P>When logging in, use Axios to send a Post request to the backend. After verified, the key will be sent to the browser and stored in a cookie, and the login status will be maintained in this way. The next time you log in, the key will be verified first, and if the key is verified, you will log in directly</P>
+			<img src="./img/Picture1.png" height="400" width="600">
+			<p>If you lack an account, you will be taken to the registration page, where you need to register as required. The filled content will be verified, and if the verification fails, a prompt will be given as shown in the figure below</p>
+			<img src="./img/Picture2.png" height="400" width="600">
+			<p>The Category page, you can add, delete, and modify the types of inventory products to facilitate classification management. You can view subcategories by clicking View subcategory</p>
+			<img src="./img/Picture3.png" height="400" width="600">
+			<img src="./img/Picture4.png" height="400" width="600">
+			<p>The Commodity page, you can add, modify, and delete specific product information, change the sales status of the goods through the Sale state, and complete the keyword search through the search box.</p>
+			<img src="./img/Picture5.png" height="400" width="600">
+			<img src="./img/Picture6.png" height="400" width="600">
+			<p>When the user clicks Detail, you will enter the product details page, where the user can change and view more product information</p>
+			<img src="./img/Picture7.png" height="400" width="600">
+			<p>Entering the Chart page, you can view the responsive chart created with D3.js. This example shows the current stock quantity of all products. I didn't do much diagramming. Frankly speaking, in my past work, it was also inseparable to find development documents and use Google search. We can complete the development by modifying the parameters of beautiful charts in a shorter time. However, I need to understand the concept of his canvas, SVG, etc.</p>
+			<img src="./img/Picture8.png" height="400" width="600">
+			<p>The Role page, the administrator account can view and modify other user permissions. For example, when the Chart permission of the junzheng.liu@empeal.com user is not enabled, he will not be able to use the Chart function anymore.</p>
+			<img src="./img/Picture9.png" height="400" width="600">
+			<img src="./img/Picture10.png" height="400" width="600">
+			<p>thanks for reading</p>
+			<p>I hope to leave a good impression on the interviewer.</p>
+		</div>
+
+		</div>
+
+		<div class="col-lg-10 mt-3">
+			<hr>
+		</div>
+	</div>
+</div>
+
+
+<!-- Related Article Grid -->
+
+<div class="container mt-3 mb-5" id="article-grid">
+	<div class="row">
+
+		<div class="col-xl-6 col-lg-12 text-center">
+			<a href="./app1.html">
+			<div class="article-card">
+			<div class="article-img">
+				<img src="./img/cover1.png">
+			</div>
+
+				<div class="article-meta text-left">
+					<h2>Warehouse Management System</h2>
+					<p>I will introduce the construction ideas and technology stack of the warehouse management system in detail</p>
+				</div>
+			</div>
+			</a>
+		</div>
+	
+		<div class="col-xl-6 col-lg-12 text-center">
+			<a href="./app2.html">
+			<div class="article-card">
+			<div class="article-img">
+				<img src="./img/cover2.png">
+			</div>
+
+				<div class="article-meta text-left">
+					<h2>Resume Optimization System</h2>
+					<p>This project is small but very practical.</p>
+				</div>
+			</div>
+			</a>
+		</div>
+
+	</div>
+</div>
+
+<!-- Footer section  -->
+
+<footer class="container-fluid mt-1 p-4">
+	<div class="container ">
+		<div class="row pb-1"> 
+		<!-- Footer logo -->
+		<div class="col-lg-3 col-md-12"></div>
+
+		<!-- footer links -->
+		<!-- <div class="col-lg-6 col-md-12">
+			<ul class="nav justify-content-center">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">Warehouse Management System</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Resume Optimization System</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">CStudy Notes System</a>
+			  </li>			  
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Travel Tips System</a>
+			  </li>
+			</ul>
+		</div> -->
+
+		<!-- footer social links -->
+		<!-- <div class="col-lg-3 col-md-12">
+			<ul class="nav justify-content-end">
+			  <li class="nav-item">
+			    <a class="nav-link active btn btn-light" href="#"><i class="fab fa-facebook-f"></i></a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active btn btn-light" href="#"><i class="fab fa-google"></i></a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active btn btn-light" href="#"><i class="fab fa-twitter"></i></a>
+			  </li>
+			</ul>
+
+		</div> -->
+
+		<hr>
+		</div>
+		<hr>
+
+		<!-- copyright text -->
+		<!-- <div class="row pt-2">
+			<div class="col-lg-12 text-center">
+				<span>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://www.dmaku.com/moban/">代码库模板</a></div></span>
+			</div>
+		</div> -->
+	</div>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
